@@ -1,0 +1,73 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+<script src="p5.play.js"></script>
+        <script src="p5.sound.min.js"></script>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <div class="le">
+        
+        <h2>HI</h2>
+        <form>
+          <div class="typd">
+            <label>Is this good game?:</label>
+            <input type="text" name="eee" required="ffff">
+            
+        </form>
+        <head>
+            <title>JavaScript fill in the blanks</title>
+          </head>
+          <body>
+            <form name="hi">
+              1+1
+             <br><input type="text" name="q1"><br></br>
+        
+             3-11
+            <br><input type="text" name="q2"><br></br>
+        
+            3(11+4)
+            <br><input type="text" name="q3"><br></br>
+        
+            <input type="button" value="submit" onclick="myfun()">
+          </form>
+        </body>
+        <script type="text/javascript">
+        
+          function myfun(){
+            var v1 = document.getElementsByName('q1')[0].value;
+            var v2 = document.getElementsByName('q2')[0].value;
+            var v3 = document.getElementsByName('q3')[0].value;
+            
+            var score=0;
+            
+            if(v1=="2"){
+                    score++;
+            }
+            if(v2=="8"){
+                    score++;
+            }
+            if(v3=="45"){
+                    score++;
+            }
+            
+            if (score == 3) {
+                alert("YAY i did it");
+                
+            } 
+            else {
+                alert("wrong, try again!");
+            }
+            
+            
+          }
+        </script>
+        
+        
+        
+
+  
+
+</body></html>
